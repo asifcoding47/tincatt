@@ -1,0 +1,135 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#title {
+    background-color: rgb(216, 13, 125);
+    color: azure;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+/* Features section */
+#features {
+    padding: 7% 15;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: rgb(216, 13, 125);
+    margin-bottom: 2rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: rgb(216, 13, 125);
+    color: white;
+
+}
+
+.testimonial-image {
+    width: 47%;
+    border-radius: 100%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: rgb(216, 13, 125);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15;
+    margin: 20px 20px 50px;
+}
+
+/* Princing Section*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        posotion: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: rgb(216, 13, 125);
+    padding: 10%;
+    color: white;
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
